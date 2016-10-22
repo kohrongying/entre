@@ -204,3 +204,14 @@ pre {
         }
     }
 }
+
+
+.bg-grey {
+    background-color: #efefef;
+
+    .vcenter {
+        display: flex;
+        justify-content:center;
+        align-items:center;
+    }
+}
