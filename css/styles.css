@@ -1,4 +1,6 @@
-
+html {
+    overflow-x:hidden;
+}
 /*sticky header*/
 .float-panel {
     width:100%;
@@ -73,7 +75,7 @@
 	background-size:cover;
 }
 
-section {
+section#howitworks,#team,#contact {
 	padding-top: 50px;
 	padding-bottom: 50px;
 }
@@ -84,7 +86,43 @@ section {
 }
 
 footer {
-	background-color: #003d7c;
+	background-color: black;
 	color:white;
 }
 
+#blackness {
+    background-color:black;
+    height:300px;
+}
+
+.parallax {
+    height:200px;
+    background-size:cover; /*forces the background image to occupy the total available space by expanding it proportionally*/
+    background-attachment: fixed; /*fixes the bakcground while content scrolls past it*/
+    background-repeat:no-repeat; /*not really necessary*/
+    color:white;
+}
+
+#bg-1{ background-image:url('../img/img1.jpg'); }
+
+.mugshot {
+    height:150px;
+    width:150px;
+     background-size:cover;
+}
+
+#daniel {
+    background-image:url('../img/daniel.jpg');
+}
+#ry {
+    background-image:url('../img/ry.jpg');
+}
+#sean {
+    background-image:url('../img/sean.jpg');
+}
+#sherry {
+    background-image:url('../img/sherry.jpg');
+}
+#chevy {
+    background-image:url('../img/chevalie.jpg');
+}
