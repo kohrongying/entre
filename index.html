@@ -10,7 +10,8 @@
       <title>30111 Entre</title>
 
       <link rel="stylesheet" href="css/styles.css" type='text/css' >
-      <!--<link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">-->
+      <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+      <!-- <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}"> -->
 
       <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
       <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
@@ -48,20 +49,32 @@
     </div>
 
     <section id="hero">
+      <img class="img-responsive" src="img/cover.jpg">
       <div class="container">
-        <div class="row vcenter_l-aligned" style="height:500px;">
-          <h1 style="color:white;">Tantalus</h1>
-          <br/>
-          <p style="color:white;">Lorem Ipsum<p>
+        <div class="col-md-6"></div>
+        <div class="col-md-6">
 
+          <div class="row vcenter_l-aligned hero-text">
+            <h1 style="color:white;">Babo</h1>
+            <br/>
+            <p style="color:white;">The World's FIrst Floating Diffuser<p>
+
+          </div>
         </div>
-      
+    </section>
+
+    <section class="parallax vcenter" id="bg-2">
+      <div class="container">
+        <div class="row text-center">
+          <h1>A Never Before Table Top Experience</h1> 
+        </div>
+      </div>
     </section>
 
     <section id="benefits">
       <div class="row vcenter">
         <div class="col-md-6 col-sm-6 col-xs-12" style="padding-right:0px;">
-          <div id="blackness"></div>
+          <img class="img-responsive" src="img/img2.jpg">
         </div>
 
         <div class="col-md-6 col-sm-6 col-xs-12 text-center">
@@ -76,14 +89,14 @@
         </div>
 
         <div class="col-md-6 col-sm-6 col-xs-12" style="padding-left:0px;">
-          <div id="blackness"></div>
+          <img class="img-responsive" src="img/img3.jpg">
           
         </div>
       </div>
 
       <div class="row vcenter">
         <div class="col-md-6 col-sm-6 col-xs-12" style="padding-right:0px;">
-          <div id="blackness"></div>
+          <img class="img-responsive" src="img/customdesign.jpg">
         </div>
 
         <div class="col-md-6 col-sm-6 col-xs-12 text-center">
@@ -93,8 +106,18 @@
 
     </section>
 
+    <section class="bg-grey" id="leaveanywhere">
+      <div class="container">
+        <div class="row text-center section-heading">
+          Leave Babo Anywhere...
+        </div>
+        <img src="img/collated.gif" alt="gif2" style="width:100%;">
+
+    </section>
+
+
     <section id="howitworks">
-      <div class="container" style="border-top:1px solid black;">
+      <div class="container">
 
         <div class="row text-center section-heading">
           How it Works
@@ -111,8 +134,8 @@
       </div>
     </section>
 
-    <section class="parallax" id="bg-1">
-      <div class="container text-center">
+    <section class="parallax vcenter" id="bg-1">
+      <div class="container">
         <h1>Magnetic Levitation</h1> 
         <p>Some Text</p>
       </div>
@@ -146,24 +169,30 @@
         <div class="row">
           <img class="img-responsive" src="img/team.jpg">
         </div>
-
-      
-
       </div>
     </section>
 
     <section id="contact" class="bg-grey">
       <a href="https://www.google.com" target="_blank">
         <div class="container">
-          <div class="row text-center section-heading">
-            Support us on
+          
+          <div class="col-md-6">
+            <img src="img/walkingbabo.gif" alt="just a gif" style="width:100%;">
           </div>
-          <div class="row vcenter">
-            <img style="width:50%" class="img-responsive" src="http://logonoid.com/images/kickstarter-logo.png">
-          </div>          
+
+          <div class="col-md-6"> 
+            <div class="text-center section-heading">
+              Support us on
+            </div>
+            <div class="row vcenter">
+              <img style="width:50%" class="img-responsive" src="http://logonoid.com/images/kickstarter-logo.png">
+            </div>   
+          </div>       
 
 
+          </div>
         </div>
+      </div>
       </a>
     </section>
 
