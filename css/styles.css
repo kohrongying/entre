@@ -93,7 +93,8 @@ h1,h2,h3{
     top:-500px;
 }
 
-section#howitworks,#team,#contact,#leaveanywhere {
+section#howitworks,#team,#contact,#leaveanywhere,
+#kickstarter {
 	padding-top: 50px;
 	padding-bottom: 50px;
 }
@@ -125,3 +126,15 @@ footer {
 
 #bg-2{ background-image:url('../img/overlay.jpg');
 color:black;}
+
+.quick-links {
+    list-style:none;
+}
+
+.modal-content {
+    text-align:center;
+}
+
+.modal-content input.form-control {
+    margin:20px 0;
+}
