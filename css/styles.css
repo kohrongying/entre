@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Oswald');
+
 html {
     overflow-x:hidden;
 }
+
 a {
     text-decoration: none;
     color:inherit;
@@ -9,15 +11,16 @@ a {
 
 
 
-h1,h2,h3{
-    font-family:Oswald;
+h1,h2,h3 {
+    font-family:'Oswald';
 }
+
 /*sticky header*/
 .float-panel {
     width:100%;
     background:white;
     z-index:300;
-    padding:30px 0; 
+    padding:10px 0; 
     transform: translateZ(0);
     transition:all 0.5s;
 }
@@ -26,7 +29,7 @@ h1,h2,h3{
     margin:10px auto;
 }
 .float-panel a {
-    font-size:16px;
+    font-size:14px;
     text-decoration:none;
     color:#444;
     display:inline-block;
@@ -94,9 +97,9 @@ h1,h2,h3{
 }
 
 section#howitworks,#team,#contact,#leaveanywhere,
-#kickstarter {
-	padding-top: 50px;
-	padding-bottom: 50px;
+#kickstarter,#benefits {
+	padding-top: 80px;
+	padding-bottom: 80px;
 }
 
 .section-heading {
@@ -107,11 +110,6 @@ section#howitworks,#team,#contact,#leaveanywhere,
 footer {
 	background-color: black;
 	color:white;
-}
-
-#blackness {
-    background-color:black;
-    height:300px;
 }
 
 .parallax {
@@ -127,6 +125,11 @@ footer {
 #bg-2{ background-image:url('../img/overlay.jpg');
 color:black;}
 
+#kickstarter {
+    background-image:url('../img/ks.JPG');
+    background-size: cover;
+}
+
 .quick-links {
     list-style:none;
 }
@@ -137,4 +140,10 @@ color:black;}
 
 .modal-content input.form-control {
     margin:20px 0;
+}
+
+/*round button*/
+.btn-lg.round {
+    border-radius: 24px;
+    padding: 10px 70px;
 }
