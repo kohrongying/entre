@@ -147,3 +147,7 @@ color:black;}
     border-radius: 24px;
     padding: 10px 70px;
 }
+
+input, textarea {
+    padding-left:10px;
+}
