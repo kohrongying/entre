@@ -32,7 +32,7 @@ p {
 }
 
 .bg-grey {
-	background-color: #95a5a6;
+	background-color: #698da5; /*95a5a6;*/
 }
 
 .vcenter {
@@ -59,7 +59,7 @@ p {
 }
 
 section#howitworks,#team,#contact,#leaveanywhere,
-#kickstarter,#benefits {
+#kickstarter,#benefits, #instructions, #video {
 	padding-top: 80px;
 	padding-bottom: 80px;
 }
@@ -205,11 +205,17 @@ a.btn-success:hover {
 }
 
 .bottom-footer {
-    background-color:#6c7a89;color:white;padding:10px;font-size:12px;
+    background-color:#6c7a89;
+    color:white;padding:10px;
+    font-size:12px;
 }
 
 .img-center {
     margin-right: auto;
     margin-left: auto;
     
+}
+
+#instructions img {
+    width:50%;
 }

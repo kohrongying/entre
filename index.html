@@ -1,38 +1,35 @@
 <!DOCTYPE html>
 <html>
   <head>
-      <meta charset="utf-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    
-      <title>Babo</title>
-      <link rel="icon" href="img/favicon.ico">
-      <link rel="stylesheet" href="css/styles.css" type='text/css' >
-      <link rel="stylesheet" href="css/animations.css" type="text/css">
-
-      <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
-    
-      <!-- Bootstrap CSS -->
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-      
-      
-      <!-- jQuery library -->
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
-
-      <!-- Latest compiled JavaScript -->
-      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
+    <title>Babo</title>
+    <link rel="icon" href="img/favicon.ico">
+    <link rel="stylesheet" href="css/styles.css" type='text/css' >
+    <link rel="stylesheet" href="css/animations.css" type="text/css">
 
-    <!-- each page's unique css -->
     <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     
     
-    
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+    <!-- MailMunch for Babo -->
+    <!-- Paste this code right before the </head> tag on every page of your site. -->
+    <script src="//a.mailmunch.co/app/v1/site.js" id="mailmunch-script" data-mailmunch-site-id="285460" async="async"></script>
   </head>
+
   <body>
 
     
@@ -75,10 +72,10 @@
     </div>
     <div class="collapse navbar-collapse" id="navbar-primary-collapse">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="#" class="hover6">Home</a></li>
-        <li><a href="#hero" class="hover6">About Babo</a></li>
+        <li class="active"><a href="#hero" class="hover6">Home</a></li>
+        <li><a href="#team" class="hover6">About Babo</a></li>
         <li><a href="#" style="padding:0;"><img id="logo-navbar-middle" src="img/babologo-black.png" width="150" alt="Logo Thing main logo"></a></li>
-        <li><a href="#howitworks" class="hover6" >How it Works</a></li>
+        <li><a href="#features" class="hover6" >Features</a></li>
         <li><a href="#contact" class="hover6" >Contact Us</a></li>
       </ul>
     </div><!-- /.navbar-collapse -->
@@ -95,25 +92,70 @@
           <div class="row vcenter_l-aligned hero-text">
             <h1 style="color:white;">Babo</h1>
             <br/>
-            <p style="color:white;">The World's First Floating Diffuser<p>
+            <p style="color:white;">The World's First Floating Humidifier<p>
+              <a href="#" target="_blank" class="btn btn-success btn-lg round">Get it Now</a>
 
           </div>
         </div>
     </section>
 
-<!-- <div class="animatedParent">
-  <h3 class="animated bounceInDown text-center" style="color:black;">It Works!</h3>
-</div>
- -->
-    <section class="parallax vcenter" id="bg-2">
+    <section id="video" class="bg-grey">
       <div class="container">
-        <div class="row text-center">
-          <h1>A Never Before Table Top Experience</h1> 
+        <div class="row vcenter">
+          <div class="col-md-4">
+            <h1>A Never Before Table Top Experience</h1>
+          </div>
+          <div class="col-md-8">
+            <iframe width="100%" height="500px" src="https://www.youtube.com/embed/Wk_AY0n_B0M" frameborder="0" allowfullscreen></iframe>
+          </div>
+
+
         </div>
       </div>
     </section>
 
-    <section id="benefits" class="bg-grey">
+
+    
+
+    <section id="instructions" class="">
+      <div class="container">
+
+        <div class="row text-center section-heading" style="padding-bottom:30px;">
+          <h1>3 Simple Steps</h1>
+        </div> 
+
+        <div class="row">
+          <div class="col-md-4 animatedParent" style="text-align:center;">
+            <img class="img-responsive animated fadeInUpShort img-center" src="img/tapv2.png">
+            <h3 class="animated fadeInUpShort">Add water</h3>
+            
+          </div>
+
+          <div class="col-md-4 animatedParent" style="text-align:center;">
+            <img class="img-responsive animated fadeInUpShort img-center" src="img/power.png">
+            <h3 class="animated fadeInUpShort">Power on Babo</h3>
+          </div>
+
+          <div class="col-md-4 animatedParent" style="text-align:center;">
+            <img class="img-responsive animated fadeInUpShort img-center" src="img/levitate.png">
+            <h3 class="animated fadeInUpShort">Levitate Babo</h3>
+           
+          </div>
+
+          
+        </div><!-- row -->      
+      </div><!-- container -->
+    </section>
+
+    <section class="parallax vcenter" id="bg-2">
+      <div class="container">
+        <div class="row text-center">
+          <h1>Creatively crafted for your office and home settings</h1> 
+        </div>
+      </div>
+    </section>  
+
+    <!-- <section id="benefits" class="bg-grey">
       <div class="container">
         <div class="row">
 
@@ -137,20 +179,53 @@
           </div>
 
           </div>
-        </div><!-- row -->      
-      </div><!-- container -->
-    </section>
-
-<!--     <section class="bg-grey" id="leaveanywhere">
-      <div class="container">
-        <div class="row text-center section-heading">
-          Leave Babo Anywhere...
         </div>
-        <img src="img/collated.gif" alt="gif2" style="width:100%;">
-
+      </div>
     </section> -->
 
+    <section class="bg-grey" id="features">
+      <div class="container">
+        <div class="row vcenter">
+          <div class="col-md-4">
+            <img class="img-responsive" src="img/moist.png">
+          </div>
+          <div class="col-md-8">
+            <h2>It moistens the air</h2>
+            <p>Humidifiers moistens the indoor air. Moistened air helps ease skin and breathing symptoms caused by dry air. Adding in drops of essential oil spreads its scent while maintaining the oils' quality and effectiveness. </p>
+          </div>
+        </div>
+      </div>
+    </section>
 
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8">
+            <h2>It is customizable</h2>
+            <p>The best part about Babo is that you get to choose how it looks like, something that screams 'HEY THAT'S ME!' or something that you really like.</p>
+          </div>
+          <div class="col-md-4">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-grey">
+      <div class="container">
+        <div class="row vcenter">
+          <div class="col-md-4">
+            <img class="img-responsive" src="img/wireless.png">
+          </div>
+          <div class="col-md-8">
+            <h2>Babo charges wirelessly.</h2>
+            <p>Flip the base around and flip the switch to turn off the electromagnet and turn on the wireless charging module. Simply put Babo on the base and a lit LED will show that it is currently charging. The humidifier has an inbuilt battery charged with the wireless technology. </p>
+            <p></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+<!-- 
     <section id="howitworks">
       <div class="container">
 
@@ -167,7 +242,7 @@
         </div>
         
       </div>
-    </section>
+    </section> -->
 
     <section class="parallax vcenter" id="bg-1">
       <div class="container text-center">
@@ -258,8 +333,8 @@
     </section>
 
     <footer class="bg-grey">
-      <div class="container" style="padding-top:30px;padding-bottom:30px;">
-        <div class="row">
+      <div class="container" style="">
+        <div class="row vcenter">
           
           <div class="col-md-4">
             <div>
@@ -270,18 +345,18 @@
             </div> -->
           </div>
 
-          <div class="col-md-4">
+          <div class="col-md-8">
             <h4>Quick Links</h4>
             <ul class='quick-links'>
-              <li><a href="#" class="hover5">About Us</a></li>
               <li><a href="#" class="hover5">Babo</a></li>
+              <li><a href="#" class="hover5">About Us</a></li>
               <li><a href="#" class="hover5">How it Works</a></li>
               <li><a href="#" class="hover5">Contact Us</a></li>
               <li><a href="#" class="hover5">Facebook</a></li>
             </ul>
           </div>
 
-          <div class="col-md-4">
+          <!-- <div class="col-md-4">
             <h4>Email Subscription</h4>
             <p>Subscribe for Latest News & Updates</p>
             
@@ -290,16 +365,16 @@
               <span class="input-group-btn">
                 <button class="btn btn-default" type="button">Go!</button>
               </span>
-            </div> <!-- input-group -->
-          </div> <!-- last col-md-4 -->
+            </div> 
+          </div>  -->
           </div><!-- row -->  
 
       </div>
     </footer> 
 
-    <div id="bottom-footer">
+    <div class="bottom-footer">
       <div class="container vcenter">
-        &copy; Babo Design 2016 | All Rights Reserved
+        <p>&copy; Babo Design 2016 | All Rights Reserved</p>
       </div>
     </div>
 
