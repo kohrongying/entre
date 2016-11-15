@@ -33,6 +33,7 @@ p {
 
 .bg-grey {
 	background-color: #698da5; /*95a5a6;*/
+    color:white;
 }
 
 .vcenter {
@@ -59,7 +60,7 @@ p {
 }
 
 section#howitworks,#team,#contact,#leaveanywhere,
-#kickstarter,#benefits, #instructions, #video {
+#kickstarter,#benefits, #instructions, #customizable {
 	padding-top: 80px;
 	padding-bottom: 80px;
 }
@@ -82,7 +83,7 @@ footer {
 
 #bg-1{ background-image:url('../img/levitates.jpg'); }
 
-#bg-2{ background-image:url('../img/overlay.jpg');
+#bg-2{ background-image:url('../img/panleftright.gif');
 color:black;}
 
 #kickstarter {
