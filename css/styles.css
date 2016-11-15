@@ -59,8 +59,8 @@ p {
     top:-500px;
 }
 
-section#howitworks,#team,#contact,#leaveanywhere,
-#kickstarter,#benefits, #instructions, #customizable, #video {
+section #home, #about,#contact,#kickstarter,
+#instructions, #customizable, #video {
 	padding-top: 80px;
 	padding-bottom: 80px;
 }
