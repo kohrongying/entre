@@ -60,7 +60,7 @@ p {
 }
 
 section#howitworks,#team,#contact,#leaveanywhere,
-#kickstarter,#benefits, #instructions, #customizable {
+#kickstarter,#benefits, #instructions, #customizable, #video {
 	padding-top: 80px;
 	padding-bottom: 80px;
 }
@@ -219,4 +219,12 @@ a.btn-success:hover {
 
 #instructions img {
     width:50%;
+}
+
+.embed-container { 
+    position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; 
+} 
+
+.embed-container iframe, .embed-container object, .embed-container embed { 
+    position: absolute; top: 0; left: 0; width: 100%; height: 100%; 
 }
